@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbarItems {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.navbarItems a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbarItems a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
