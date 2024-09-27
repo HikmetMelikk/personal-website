@@ -24,3 +24,10 @@
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
 }
+
+.contact {
+    background: linear-gradient(90deg, #ff0000, #ffee00);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

@@ -5,8 +5,10 @@ export default function NavBar() {
         <nav className={styles.navbar}>
             <div className={styles.navbarItems}>
                 <a href="#">Home</a>
-                <a href="#">Contact</a>
-                <a href="#">About Me</a>
+                <a href="#">About</a>
+                <a href="#" className={styles.contact}>
+                    Contact
+                </a>
             </div>
         </nav>
     );
