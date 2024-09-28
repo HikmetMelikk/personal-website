@@ -4,10 +4,15 @@ export default function Home() {
     return (
         <div className={styles.homeSection}>
             <div className={styles.homeImage}>
-                <img src="public/assets/myself2.png" alt="Myself" />
+                <img src="/assets/myself2.png" alt="Myself" />
             </div>
-            <h1>👋🏻 Hi, I am Hikmet Melik FIRAT</h1>
-            <p>
+            <h1 className={styles.title}>
+                👋🏻 {""}
+                <span className={styles.greetingTitle}>
+                    Hi, I am Hikmet Melik FIRAT
+                </span>
+            </h1>
+            <p className={styles.paragraph}>
                 As a passionate Software Engineer with expertise in both mobile
                 and web development, I am dedicated to building innovative
                 digital solutions that seamlessly integrate functionality and

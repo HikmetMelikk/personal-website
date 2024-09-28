@@ -1,0 +1,18 @@
+.myWorksSection > h1 {
+    background: linear-gradient(180deg, #ffffff, #efefef, #b0b6bf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.myWorksSection > p {
+    font-size: 1.2rem;
+    max-width: 50vw;
+    color: #b1b1b1;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.myWorksSection {
+    padding: 4rem 12rem;
+}
