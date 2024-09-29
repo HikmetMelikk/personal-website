@@ -6,8 +6,7 @@ export default function Home() {
             <div className={styles.homeImage}>
                 <img src="/assets/myself2.png" alt="Myself" />
             </div>
-            <h1 className={styles.title}>
-                👋🏻 {""}
+            <h1>
                 <span className={styles.greetingTitle}>
                     Hi, I am Hikmet Melik FIRAT
                 </span>

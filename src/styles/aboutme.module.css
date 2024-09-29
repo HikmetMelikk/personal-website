@@ -1,0 +1,29 @@
+.aboutMeSection {
+    margin: 12rem 12rem;
+    color: #ffffff;
+}
+
+.aboutMeSection > h1 {
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin: 0 auto;
+}
+
+.aboutMeRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMeRow > img {
+    max-width: 20vw;
+    height: auto;
+}
+
+.aboutMeRow > p {
+    font-size: 1.2rem;
+    max-width: 40vw;
+    text-align: left;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}

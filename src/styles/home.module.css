@@ -11,11 +11,6 @@
     background-clip: text;
     color: transparent;
 }
-.title {
-    text-align: center;
-    font-size: 3rem;
-    margin: 1rem 0;
-}
 
 .paragraph {
     text-align: center;
@@ -31,4 +26,9 @@
     justify-content: center;
     padding-top: 5rem;
     margin: 3rem 3rem;
+}
+.homeSection > h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
 }

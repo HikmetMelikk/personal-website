@@ -12,7 +12,7 @@ export default function MyWorksCard() {
                     quo nostrum? Quae nostrum error minima cumque cum!
                 </p>
                 <button className={styles.myWorksCardBtn}>
-                    Read case study
+                    Explore Project on Github
                 </button>
             </div>
             <div className={styles.myWorksCardImage}>
