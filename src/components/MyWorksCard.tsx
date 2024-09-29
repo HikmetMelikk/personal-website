@@ -1,23 +1,42 @@
+import { useEffect, useState } from "react";
+import projectData from "../my-projects.json";
 import styles from "../styles/myworkscard.module.css";
+interface Project {
+    id: number;
+    name: string;
+    description: string;
+    github?: string;
+}
+
 export default function MyWorksCard() {
-    return (
+    const [projects, setProjects] = useState<Project[]>([]);
+
+    useEffect(() => {
+        setProjects(projectData);
+    }, []);
+
+    const handleClick = (project: Project) => {
+        window.open(project.github, "_blank");
+    };
+
+    return projects.map((project) => (
         <div className={styles.myWorksCard}>
             <div className={styles.myWorksContent}>
-                <h2>My work 1</h2>
-                <p className={styles.myWorksCardTitle}>2023 - Product design</p>
+                <h2>{project.name}</h2>
                 <p className={styles.myWorksCardDescription}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laudantium debitis dicta exercitationem delectus nulla,
-                    maiores porro dolores neque labore ex incidunt voluptatum,
-                    quo nostrum? Quae nostrum error minima cumque cum!
+                    {project.description}
                 </p>
-                <button className={styles.myWorksCardBtn}>
-                    Explore Project on Github
-                </button>
+                {project.github ? (
+                    <button
+                        className={styles.myWorksCardBtn}
+                        onClick={() => handleClick(project)}>
+                        Explore Project on Github
+                    </button>
+                ) : null}
             </div>
             <div className={styles.myWorksCardImage}>
                 <img src="/assets/landing-page-image.png" alt="Work1 Design" />
             </div>
         </div>
-    );
+    ));
 }

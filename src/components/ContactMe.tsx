@@ -18,7 +18,7 @@ export default function ContactMe() {
         window.open("https://github.com/HikmetMelikk", "_blank");
     };
     return (
-        <div className={styles.contactMeCard}>
+        <div className={styles.contactMeCard} id="contact">
             <img
                 src="/assets/ellipse-left.png"
                 alt="top left corner image"

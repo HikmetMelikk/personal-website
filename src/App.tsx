@@ -15,10 +15,6 @@ function App() {
             <Home />
             <MyWorks />
             <MyWorksCard />
-            <MyWorksCard />
-            <MyWorksCard />
-            <MyWorksCard />
-            <MyWorksCard />
             <AboutMe />
             <MySkills />
             <ContactMe />

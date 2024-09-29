@@ -23,12 +23,6 @@
     margin-bottom: 0.5rem;
 }
 
-.myWorksCardTitle {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    color: white;
-}
-
 .myWorksCardDescription {
     font-size: 1rem;
     line-height: 1.5;
@@ -49,6 +43,7 @@
 
 .myWorksCardBtn:hover {
     background-color: #ccc;
+    color: #121212;
 }
 
 .myWorksCardImage img {
