@@ -4,7 +4,7 @@ export default function NavBar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbarItems}>
-                <a href="#">Home</a>
+                <a href="#">My Works</a>
                 <a href="#">About</a>
                 <a href="#" className={styles.contact}>
                     Contact

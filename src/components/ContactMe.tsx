@@ -20,12 +20,12 @@ export default function ContactMe() {
     return (
         <div className={styles.contactMeCard}>
             <img
-                src="/public/assets/ellipse-left.png"
+                src="/assets/ellipse-left.png"
                 alt="top left corner image"
                 className={styles.topLeftQuarterCircle}
             />
             <img
-                src="/public/assets/ellipse-right.png"
+                src="/assets/ellipse-right.png"
                 alt="bottom right corner image"
                 className={styles.bottomRightQuarterCircle}
             />
