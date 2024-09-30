@@ -25,7 +25,7 @@ export default function Home() {
                 {titleCharacters.map((char) => (
                     <motion.span
                         key={char}
-                        transition={{ duration: 0.5 }}
+                        transition={{ duration: 0.25 }}
                         variants={charVariants}>
                         {char}
                     </motion.span>
