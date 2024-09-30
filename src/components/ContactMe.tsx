@@ -1,5 +1,6 @@
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styles from "../styles/contactme.module.css";
+import text from "../texts";
 
 export default function ContactMe() {
     const handleEmailClick = () => {
@@ -30,12 +31,9 @@ export default function ContactMe() {
                 className={styles.bottomRightQuarterCircle}
             />
             <div className={styles.contactMeContent}>
-                <h1>Contact Me</h1>
+                <h1>{text.contactMe.title}</h1>
                 <p className={styles.contactMeCardDescription}>
-                    Interested in working together or have a question? Feel free
-                    to reach out. I'm here to help you turn your ideas into
-                    amazing digital realities. Looking forward to hearing from
-                    you soon!
+                    {text.contactMe.description}
                 </p>
                 <div className={styles.contactMeButtonRow}>
                     <button
