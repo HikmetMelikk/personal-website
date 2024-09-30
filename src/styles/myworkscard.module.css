@@ -7,13 +7,13 @@
     border-radius: 10px;
     border: #3b3b3b 1px solid;
     color: white;
-    min-width: 65vw;
+    gap: 2rem;
 }
 
 .myWorksContent {
     display: flex;
     flex-direction: column;
-    max-width: 30vw;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -46,6 +46,15 @@
 }
 
 .myWorksCardImage img {
-    max-width: 12vw;
+    width: 12vw;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .myWorksCard {
+        flex-direction: column-reverse;
+    }
+    .myWorksCardImage > img {
+        width: 100%;
+    }
 }

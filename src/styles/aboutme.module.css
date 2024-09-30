@@ -1,7 +1,6 @@
 .aboutMeSection {
     flex-direction: column;
     color: #ffffff;
-    min-width: 65vw;
     margin: 0 auto;
     margin-top: 5rem;
 }
@@ -21,13 +20,12 @@
 }
 
 .aboutMeRow > img {
-    max-width: 15vw;
+    width: 15vw;
     height: auto;
 }
 
 .aboutMeRow > p {
     font-size: 1.2rem;
-    max-width: 40vw;
     text-align: left;
     margin-bottom: 1rem;
     line-height: 1.5;

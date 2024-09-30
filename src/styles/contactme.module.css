@@ -8,26 +8,26 @@
     border-radius: 2rem;
     border: #3b3b3b 1px solid;
     color: #ffffff;
-    max-width: 60vw;
     margin: 0 auto;
     margin-bottom: 6rem;
 }
-.topLeftQuarterCircle {
+.topLeftQuarterCircle,
+.bottomRightQuarterCircle {
     position: absolute;
+    width: 10vw;
+}
+.topLeftQuarterCircle {
     top: 0;
     left: 0;
-    width: 10vw;
 }
 
 .bottomRightQuarterCircle {
-    position: absolute;
     bottom: 0;
     right: 0;
-    width: 10vw;
 }
 
 .contactMeContent {
-    max-width: 50%;
+    width: 50%;
 }
 
 .contactMeContent > h1 {
@@ -69,4 +69,26 @@
     border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contactMeContent {
+        width: 100%;
+    }
+
+    .topLeftQuarterCircle,
+    .bottomRightQuarterCircle {
+        position: absolute;
+        width: 20vw;
+    }
+    .socialMediaButton {
+        z-index: 1;
+    }
+    .contactMeButtonRow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contactMeCardBtn {
+        grid-column: span 3;
+    }
 }

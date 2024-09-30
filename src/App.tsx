@@ -9,17 +9,15 @@ import NavBar from "./components/NavBar";
 
 function App() {
     return (
-        <>
+        <div className="app">
             <NavBar />
             <Home />
-            <div className="allAboutMe">
-                <MyWorks />
-                <AboutMe />
-                <MySkills />
-                <ContactMe />
-            </div>
+            <MyWorks />
+            <AboutMe />
+            <MySkills />
+            <ContactMe />
             <Footer />
-        </>
+        </div>
     );
 }
 

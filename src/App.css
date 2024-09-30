@@ -2,13 +2,6 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-.allAboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 80vw;
-    margin: 0 auto;
-}
 
 body {
     background-image: url("assets/background.png");
@@ -16,9 +9,35 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    display: block;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-main {
-    display: block;
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.app > * {
     width: 100%;
+}
+
+.large-text {
+    font-size: 2.5rem;
+}
+.medium-text {
+    font-size: 1.5rem;
+}
+.normal-text {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .app {
+        width: 80vw;
+    }
 }

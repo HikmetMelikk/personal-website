@@ -21,7 +21,7 @@ export default function MyWorksCard() {
     };
 
     return projects.map((project) => (
-        <div className={styles.myWorksCard}>
+        <div key={project.id} className={styles.myWorksCard}>
             <div className={styles.myWorksContent}>
                 <h2>{project.name}</h2>
                 <p className={styles.myWorksCardDescription}>

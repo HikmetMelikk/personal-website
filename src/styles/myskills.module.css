@@ -1,14 +1,12 @@
 .mySkillsSection {
     display: flex;
     flex-direction: column;
-    min-width: 65vw;
-    margin: 6rem 12rem;
+    padding: 8vw;
 }
 
 .mySkillsSection > h2 {
     color: #ffffff;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .mySkillsSection > ul {
@@ -17,7 +15,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin-left: 1rem;
 }
 
 .mySkillsSection > ul > li {
@@ -27,4 +24,10 @@
 }
 .mySkillsSection > ul > li::marker {
     color: #ff0000;
+}
+
+@media (max-width: 768px) {
+    .mySkillsSection > ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
