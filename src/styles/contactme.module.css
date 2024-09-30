@@ -1,14 +1,13 @@
 .contactMeCard {
-    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    position: relative;
     padding: 2rem;
     background-color: #121212;
-    border-radius: 10px;
+    border-radius: 2rem;
     border: #3b3b3b 1px solid;
-    color: white;
+    color: #ffffff;
     max-width: 60vw;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -29,13 +28,9 @@
 
 .contactMeContent {
     max-width: 50%;
-    text-align: center;
 }
 
 .contactMeContent > h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -50,9 +45,8 @@
 
 .contactMeButtonRow {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 4rem;
+    gap: 0.5rem;
 }
 
 .contactMeCardBtn {

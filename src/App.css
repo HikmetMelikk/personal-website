@@ -2,6 +2,13 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
+.allAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
 
 body {
     background-image: url("assets/background.png");
@@ -9,9 +16,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 main {

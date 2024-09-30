@@ -1,21 +1,20 @@
 .myWorksCard {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1.5rem;
     padding-bottom: 1rem;
     background-color: #121212;
     border-radius: 10px;
     border: #3b3b3b 1px solid;
     color: white;
-    max-width: 70vw;
-    margin-left: 12rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    min-width: 65vw;
 }
 
 .myWorksContent {
-    max-width: 50%;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    justify-content: space-between;
 }
 
 .myWorksContent > h2 {
@@ -47,7 +46,6 @@
 }
 
 .myWorksCardImage img {
-    max-width: 20vw;
+    max-width: 12vw;
     border-radius: 10px;
-    margin: 4rem 2rem;
 }

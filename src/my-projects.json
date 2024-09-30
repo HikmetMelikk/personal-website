@@ -3,7 +3,8 @@
         "id": 1,
         "name": "Customer App",
         "description": "Customer App project for Argekip Bilisim Teknolojileri Internship. Users can make CRUD operations on customers without any state management methods. App communicate with my backend service which is Customer Backend. Used technologies: Dart/Flutter.",
-        "github": "https://github.com/HikmetMelikk/CustomerApp"
+        "github": "https://github.com/HikmetMelikk/CustomerApp",
+        "image": "/assets/customerapp_ss.png"
     },
     {
         "id": 2,
@@ -15,11 +16,13 @@
         "id": 3,
         "name": "Ballsquad Technical Test Solution",
         "description": "Ballsquad Technical Test Solution project for Ballsquad Erasmus+ Internship. I wrote a project that allows me to use Bloc/Cubit and Dio packages with Flutter and display authors on the screen by sending a request to 'https://openlibrary.org', and then display the author's details when the relevant author is clicked. Used technologies and packages: Dart/Flutter, Bloc/Cubit, Dio.",
-        "github": "https://github.com/HikmetMelikk/ballsquad-project"
+        "github": "https://github.com/HikmetMelikk/ballsquad-project",
+        "image": "/assets/ballsquad_ss.png"
     },
     {
         "id": 4,
         "name":"Voyagist App",
-        "description": "Ondokuz Mayis University Computer Engineering graduation project. The aim of this project is to prevent users from doing site research one by one to visit historical places in a city. The application draws a route with historical places in the city where the user is located and saves users time. Used technologies: Dart/Flutter, Node.js/Express.js, MongoDB, Firebase, Sengrid Email API,"
+        "description": "Ondokuz Mayis University Computer Engineering graduation project. The aim of this project is to prevent users from doing site research one by one to visit historical places in a city. The application draws a route with historical places in the city where the user is located and saves users time. Used technologies: Dart/Flutter, Node.js/Express.js, MongoDB, Firebase, Sengrid Email API,",
+        "image": "/assets/voyagist_ss.png"
     }
 ]

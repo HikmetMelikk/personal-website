@@ -6,6 +6,7 @@ interface Project {
     name: string;
     description: string;
     github?: string;
+    image?: string;
 }
 
 export default function MyWorksCard() {
@@ -35,7 +36,14 @@ export default function MyWorksCard() {
                 ) : null}
             </div>
             <div className={styles.myWorksCardImage}>
-                <img src="/assets/landing-page-image.png" alt="Work1 Design" />
+                <img
+                    src={
+                        project.image
+                            ? project.image
+                            : "assets/landing-page-image.png"
+                    }
+                    alt="Work1 Design"
+                />
             </div>
         </div>
     ));
