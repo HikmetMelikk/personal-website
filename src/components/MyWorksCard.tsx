@@ -8,21 +8,21 @@ interface Project {
     description: string;
     github?: string;
     image?: string;
+    button: string;
 }
 
 export default function MyWorksCard() {
-    const { t: lang } = useTranslation("global"); // Use "lang" as the translation function
+    const { t: lang } = useTranslation("global");
 
     const [projects, setProjects] = useState<Project[]>([]);
 
     useEffect(() => {
-        // Retrieve the projects data directly from i18next without parsing
         const projectsData = lang("projects", {
             returnObjects: true,
         }) as Project[];
 
         if (Array.isArray(projectsData)) {
-            setProjects(projectsData); // Set the state if it's a valid array
+            setProjects(projectsData);
         } else {
             console.error("Projects data is not an array:", projectsData);
         }
@@ -45,7 +45,7 @@ export default function MyWorksCard() {
                             <button
                                 className={styles.myWorksCardBtn}
                                 onClick={() => handleClick(project)}>
-                                Explore Project on Github
+                                {project.button}
                             </button>
                         ) : null}
                     </div>

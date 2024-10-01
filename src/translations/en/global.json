@@ -26,7 +26,8 @@
         "title": "Contact Me",
         "description":
             "Interested in working together or have a question? Feel free to reach out. I'm here to help you turn your ideas into amazing digital realities. Looking forward to hearing from you soon!"
-    }, 
+    },
+    
 
     "projects": [
         {
@@ -34,26 +35,30 @@
         "name": "Customer App",
         "description": "Customer App project for Argekip Bilisim Teknolojileri Internship. Users can make CRUD operations on customers without any state management methods. App communicate with my backend service which is Customer Backend. Used technologies: Dart/Flutter.",
         "github": "https://github.com/HikmetMelikk/CustomerApp",
-        "image": "/assets/customerapp_ss.png"
+        "image": "/assets/customerapp_ss.png",
+        "button": "Explore Project on Github"
     },
     {
         "id": 2,
         "name": "Customer Backend",
         "description": "Customer Backend project for Argekip Bilisim Teknolojileri Internship. Backend service for Customer App with Typescript. Free to use for simple operations. Used technologies: Node.js, Express.js, MongoDB.",
-        "github": "https://github.com/HikmetMelikk/Customer-Backend"
+        "github": "https://github.com/HikmetMelikk/Customer-Backend",
+        "button": "Explore Project on Github"
     },
     {
         "id": 3,
         "name": "Ballsquad Technical Test Solution",
         "description": "Ballsquad Technical Test Solution project for Ballsquad Erasmus+ Internship. I wrote a project that allows me to use Bloc/Cubit and Dio packages with Flutter and display authors on the screen by sending a request to 'https://openlibrary.org', and then display the author's details when the relevant author is clicked. Used technologies and packages: Dart/Flutter, Bloc/Cubit, Dio.",
         "github": "https://github.com/HikmetMelikk/ballsquad-project",
-        "image": "/assets/ballsquad_ss.png"
+        "image": "/assets/ballsquad_ss.png",
+        "button": "Explore Project on Github"
     },
     {
         "id": 4,
         "name":"Voyagist App",
         "description": "Ondokuz Mayis University Computer Engineering graduation project. The aim of this project is to prevent users from doing site research one by one to visit historical places in a city. The application draws a route with historical places in the city where the user is located and saves users time. Used technologies: Dart/Flutter, Node.js/Express.js, MongoDB, Firebase, Sengrid Email API,",
-        "image": "/assets/voyagist_ss.png"
+        "image": "/assets/voyagist_ss.png",
+        "button": "Explore Project on Github"
     }
     ]
     

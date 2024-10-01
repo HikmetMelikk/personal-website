@@ -33,25 +33,30 @@
         "name": "Müşteri Uygulaması",
         "description": "Argekip Bilisim Teknolojileri Stajı için Müşteri Uygulaması projesi. Kullanıcılar, herhangi bir durum yönetimi yöntemi olmadan müşteriler üzerinde CRUD işlemleri yapabilirler. Uygulama, Müşteri Backend adlı backend hizmetimle iletişim kurar. Kullanılan teknolojiler: Dart/Flutter.",
         "github": "https://github.com/HikmetMelikk/CustomerApp",
-        "image": "/assets/customerapp_ss.png"},
+        "image": "/assets/customerapp_ss.png",
+        "button": "Projeyi Github'da Keşfet"
+    },
         {
         "id": 2,
         "name": "Müşteri Backend",
         "description": "Argekip Bilisim Teknolojileri Stajı için Müşteri Backend projesi. Müşteri Uygulaması için backend hizmeti. Basit işlemler için kullanıma uygundur. Kullanılan teknolojiler: Node.js, Express.js, MongoDB.",
-        "github": "https://github.com/HikmetMelikk/Customer-Backend"
+        "github": "https://github.com/HikmetMelikk/Customer-Backend",
+        "button": "Projeyi Github'da Keşfet"
         },
         {
         "id": 3,
         "name": "Ballsquad Teknik Test Çözümü",
         "description": "Ballsquad Erasmus+ Stajı için Ballsquad Teknik Test Çözümü projesi. Flutter ile Bloc/Cubit ve Dio paketlerini kullanmama izin veren ve 'https://openlibrary.org' adresine istek göndererek yazarları ekranda gösteren ve ardından ilgili yazar tıklandığında yazarın ayrıntılarını gösteren bir proje yazdım. Kullanılan teknolojiler ve paketler: Dart/Flutter, Bloc/Cubit, Dio.",
         "github": "https://github.com/HikmetMelikk/ballsquad-project",
-        "image": "/assets/ballsquad_ss.png"
+        "image": "/assets/ballsquad_ss.png",
+        "button": "Projeyi Github'da Keşfet"
         },
         { 
         "id": 4,
         "name":"Voyagist Uygulaması",
         "description": "Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği mezuniyet projesi. Bu projenin amacı, kullanıcıların bir şehirdeki tarihi yerleri tek tek araştırmasının önüne geçmektir. Uygulama, kullanıcının bulunduğu şehirdeki tarihi yerlerle bir rota çizer ve kullanıcılara zaman kazandırır. Kullanılan teknolojiler: Dart/Flutter, Node.js/Express.js, MongoDB, Firebase, Sengrid Email API.",
-        "image": "/assets/voyagist_ss.png"
+        "image": "/assets/voyagist_ss.png",
+        "button": "Projeyi Github'da Keşfet"
         }
     ]
 }
