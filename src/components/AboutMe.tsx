@@ -1,12 +1,14 @@
+import { useTranslation } from "react-i18next";
 import styles from "../styles/aboutme.module.css";
-import text from "../texts";
 
 export default function AboutMe() {
+    const [lang, i18n] = useTranslation("global");
+
     return (
         <div className={styles.aboutMeSection} id="about">
-            <h1>{text.aboutMe.title}</h1>
+            <h1>{lang("aboutMe.title")}</h1>
             <div className={styles.aboutMeRow}>
-                <p>{text.aboutMe.description}</p>
+                <p>{lang("aboutMe.description")}</p>
             </div>
         </div>
     );

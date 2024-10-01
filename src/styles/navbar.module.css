@@ -7,6 +7,7 @@
 
 .navbarItems {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 2rem;
     font-size: 1.2rem;
@@ -16,7 +17,6 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
-    padding: 0.5rem 1rem;
     border-radius: 10px;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
@@ -31,4 +31,16 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+}
+.changeLanguageButton {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbarItems {
+        font-size: 1rem;
+    }
 }
