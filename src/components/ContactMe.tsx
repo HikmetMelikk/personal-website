@@ -3,7 +3,7 @@ import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import styles from "../styles/contactme.module.css";
 
 export default function ContactMe() {
-    const [lang, i18n] = useTranslation("global");
+    const [lang] = useTranslation("global");
 
     const handleEmailClick = () => {
         window.location.href = "mailto:hikmetmelik@gmail.com";

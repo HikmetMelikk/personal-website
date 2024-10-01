@@ -3,7 +3,7 @@ import styles from "../styles/myworks.module.css";
 import MyWorksCard from "./MyWorksCard";
 
 export default function MyWorks() {
-    const [lang, i18n] = useTranslation("global");
+    const [lang] = useTranslation("global");
 
     return (
         <div className={styles.myWorksSection} id="my-works">

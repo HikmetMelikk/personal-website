@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import styles from "../styles/myskills.module.css";
 
 export default function MySkills() {
-    const [lang, i18n] = useTranslation("global");
+    const [lang] = useTranslation("global");
     return (
         <div className={styles.mySkillsSection}>
             <h2>{lang("mySkills.title")}</h2>

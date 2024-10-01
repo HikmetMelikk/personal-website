@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import styles from "../styles/home.module.css";
 
 export default function Home() {
-    const [lang, i18n] = useTranslation("global");
+    const [lang] = useTranslation("global");
 
     return (
         <div className={styles.homeSection}>
