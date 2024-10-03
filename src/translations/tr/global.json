@@ -41,6 +41,7 @@
         "name": "Müşteri Backend",
         "description": "Argekip Bilisim Teknolojileri Stajı için Müşteri Backend projesi. Müşteri Uygulaması için backend hizmeti. Basit işlemler için kullanıma uygundur. Kullanılan teknolojiler: Node.js, Express.js, MongoDB.",
         "github": "https://github.com/HikmetMelikk/Customer-Backend",
+        "image": "/assets/backend-vs.webp",
         "button": "Projeyi Github'da Keşfet"
         },
         {

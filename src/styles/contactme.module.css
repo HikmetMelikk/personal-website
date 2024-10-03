@@ -11,6 +11,26 @@
     margin: 0 auto;
     margin-bottom: 6rem;
 }
+.contactMeRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scrollToTopButton {
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 1rem 1rem;
+}
+
+.scrollToTopButton:hover {
+    background-color: #5b5b5b;
+}
+
 .topLeftQuarterCircle,
 .bottomRightQuarterCircle {
     position: absolute;
@@ -45,6 +65,8 @@
 
 .contactMeButtonRow {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 4rem;
     gap: 0.5rem;
 }

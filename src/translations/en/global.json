@@ -43,6 +43,8 @@
         "name": "Customer Backend",
         "description": "Customer Backend project for Argekip Bilisim Teknolojileri Internship. Backend service for Customer App with Typescript. Free to use for simple operations. Used technologies: Node.js, Express.js, MongoDB.",
         "github": "https://github.com/HikmetMelikk/Customer-Backend",
+        "image": "/assets/backend-vs.webp",
+
         "button": "Explore Project on Github"
     },
     {
