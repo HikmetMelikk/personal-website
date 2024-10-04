@@ -1,17 +1,24 @@
 .myWorksSection > h1 {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 2.25rem;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 2.25rem;
 }
 .myWorksSection > p {
-    font-size: 1.2rem;
-    color: #b1b1b1;
-    text-align: left;
-    margin-bottom: 1rem;
+	font-size: 1.2rem;
+	color: #b1b1b1;
+	text-align: left;
+	margin-bottom: 1rem;
 }
 .myWorksSection {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    gap: 2rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	gap: 2rem;
+}
+@media (min-width: 1100px) {
+	.myWorksCardSection {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	}
 }
